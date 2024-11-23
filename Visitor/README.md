@@ -39,7 +39,7 @@ Além disso, o sistema pode precisar suportar outros formatos de exportação no
 
 O **Visitor** resolve esse problema ao transferir os novos comportamentos para uma classe separada. Em vez de implementar o comportamento dentro das classes de nó, você cria um *Visitor* que executa essas operações. O objeto Visitor "visita" cada nó do grafo e realiza a ação correspondente, acessando os dados do nó sem precisar modificar sua classe.
 
-Para lidar com diferentes tipos de nós (por exemplo, cidades, fábricas, etc.), o Visitor usa um conjunto de métodos especializados, cada um responsável por um tipo específico de nó. A técnica de [**Double Dispatch**](https://www.notion.so/1477f68774a68087814bf000535d8843?pvs=21) permite que o nó chame o método apropriado no Visitor, eliminando a necessidade de grandes estruturas condicionais ou verificações de tipo.
+Para lidar com diferentes tipos de nós (por exemplo, cidades, fábricas, etc.), o Visitor usa um conjunto de métodos especializados, cada um responsável por um tipo específico de nó. A técnica de **Double Dispatch** permite que o nó chame o método apropriado no Visitor, eliminando a necessidade de grandes estruturas condicionais ou verificações de tipo.
 
 # Exemplo de funcionamento
 
