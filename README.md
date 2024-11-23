@@ -2,7 +2,7 @@ Definições e conceitos de alguns dos padrões de projetos clássicos definidos
 
 # Referências:
 
-- [Design Pattern GoF](https://github.com/GunterMueller/Books-3/blob/master/Design%20Patterns%20Elements%20of%20Reusable%20Object-Oriented%20Software.pdf)
+- [Design Patterns GoF](https://github.com/GunterMueller/Books-3/blob/master/Design%20Patterns%20Elements%20of%20Reusable%20Object-Oriented%20Software.pdf)
 - [Refactoring Guru](https://refactoring.guru/pt-br/design-patterns)
 
 # Criacionais
@@ -20,6 +20,7 @@ Definições e conceitos de alguns dos padrões de projetos clássicos definidos
 [Bridge](https://github.com/oNicolasSB/DesignPatternsJava/tree/main/Bridge)
 
 [Flyweight](https://github.com/oNicolasSB/DesignPatternsJava/tree/main/Flyweight)
+[Decorator](https://github.com/oNicolasSB/DesignPatternsJava/tree/main/Decorator)
 
 # Comportamentais
 
