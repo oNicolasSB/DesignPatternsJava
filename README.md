@@ -20,6 +20,7 @@ Definições e conceitos de alguns dos padrões de projetos clássicos definidos
 [Bridge](https://github.com/oNicolasSB/DesignPatternsJava/tree/main/Bridge)
 
 [Flyweight](https://github.com/oNicolasSB/DesignPatternsJava/tree/main/Flyweight)
+
 [Decorator](https://github.com/oNicolasSB/DesignPatternsJava/tree/main/Decorator)
 
 # Comportamentais
