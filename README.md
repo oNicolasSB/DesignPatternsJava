@@ -13,7 +13,7 @@ Definições e conceitos de alguns dos padrões de projetos clássicos definidos
 
 # Estruturais
 
-[Proxy Pattern](https://github.com/oNicolasSB/DesignPatternsJava/tree/main/Proxy)
+[Proxy](https://github.com/oNicolasSB/DesignPatternsJava/tree/main/Proxy)
 
 [Adapter](https://github.com/oNicolasSB/DesignPatternsJava/tree/main/Adapter/AdapterPattern)
 
@@ -30,3 +30,5 @@ Definições e conceitos de alguns dos padrões de projetos clássicos definidos
 [Strategy](https://github.com/oNicolasSB/DesignPatternsJava/tree/main/Strategy)
 
 [Visitor](https://github.com/oNicolasSB/DesignPatternsJava/tree/main/Visitor)
+
+[Chain of Responsibility](https://github.com/oNicolasSB/DesignPatternsJava/tree/main/ChainOfResponsibility)
