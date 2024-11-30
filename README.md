@@ -34,3 +34,5 @@ Definições e conceitos de alguns dos padrões de projetos clássicos definidos
 [Visitor](https://github.com/oNicolasSB/DesignPatternsJava/tree/main/Visitor)
 
 [Chain of Responsibility](https://github.com/oNicolasSB/DesignPatternsJava/tree/main/ChainOfResponsibility)
+
+[Iterator](https://github.com/oNicolasSB/DesignPatternsJava/tree/main/Iterator)
