@@ -23,6 +23,8 @@ Definições e conceitos de alguns dos padrões de projetos clássicos definidos
 
 [Decorator](https://github.com/oNicolasSB/DesignPatternsJava/tree/main/Decorator)
 
+[Facade](https://github.com/oNicolasSB/DesignPatternsJava/tree/main/Facade)
+
 # Comportamentais
 
 [Command](https://github.com/oNicolasSB/DesignPatternsJava/tree/main/Command)
