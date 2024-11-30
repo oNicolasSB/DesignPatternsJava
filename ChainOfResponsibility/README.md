@@ -28,19 +28,19 @@ Aqui está a melhor parte: um handler pode optar por não passar a requisição 
 
 Em nosso exemplo com o sistema de encomendas, um handler exerce a função de processar e depois decidir quando passar ou não a requisição adiante. Assumindo que a requisição contém os dados corretos, todos os handlers podem executar sua função primária, sejam validações de autenticação ou caching.
 
-![line-chain.png](https://github.com/oNicolasSB/DesignPatternsJava/blob/main/Responsibility/line-chain.png)
+![line-chain.png](https://github.com/oNicolasSB/DesignPatternsJava/blob/main/ChainOfResponsibility/line-chain.png)
 
 Entretanto, existe uma aproximação ligeiramente diferente (e um pouco mais canônica) na qual, ao receber uma requisição, um handler decide quando pode processá-la. Se puder, não passa a requisição adiante. Portanto, ou um handler processa a requisição ou nenhum. Essa abordagem é muito comum quando trabalhando com eventos em pilhas de elementos dentro de uma interface gráfica de usuário.
 
 For instance, quando um usuário clica em um botão, o evento se propaga pela cadeia de elementos GUI que começa com o botão, passa por todo seu contêiner (como formulários ou painéis), e termina com a janela final da aplicação. O evento é processado pelo primeiro elemento na cadeia que é capaz de lidar com ele. Esse exemplo também é notável pois mostra que uma cadeia também pode ser extraída de uma árvore de objetos.
 
-![tree-chain.png](https://github.com/oNicolasSB/DesignPatternsJava/blob/main/Responsibility/tree-chain.png)
+![tree-chain.png](https://github.com/oNicolasSB/DesignPatternsJava/blob/main/ChainOfResponsibility/tree-chain.png)
 
 É crucial que todos as classes handler implementem a mesma interface. Cada handler concreto deve lidar apenas com o handler conseguinte e possuir o método `executar()` . Desse modo, você pode compor cadeias em tempo de execução, usando diversos handlers sem acoplar seu código com suas classes concretas.
 
 # Estrutura
 
-![structure.png](https://github.com/oNicolasSB/DesignPatternsJava/blob/main/Responsibility/structure.png)
+![structure.png](https://github.com/oNicolasSB/DesignPatternsJava/blob/main/ChainOfResponsibility/structure.png)
 
 1. O `Handler` declara a interface, comum para todos os handlers concretos. Normalmente contém apenas um único método para lidar com a requisição, mas às vezes pode também conter outro método para definir o próximo handler na cadeia.
 2. O `BaseHandler` é uma classe opcional onde você pode colocar o código boilerplate (comum) que é compartilhado entre todos os handlers.
