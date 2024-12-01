@@ -11,6 +11,8 @@ Definições e conceitos de alguns dos padrões de projetos clássicos definidos
 
 [Prototype](https://github.com/oNicolasSB/DesignPatternsJava/tree/main/Prototype)
 
+[Builder](https://github.com/oNicolasSB/DesignPatternsJava/tree/main/Builder)
+
 # Estruturais
 
 [Proxy](https://github.com/oNicolasSB/DesignPatternsJava/tree/main/Proxy)
