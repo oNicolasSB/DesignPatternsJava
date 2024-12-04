@@ -38,3 +38,5 @@ Definições e conceitos de alguns dos padrões de projetos clássicos definidos
 [Chain of Responsibility](https://github.com/oNicolasSB/DesignPatternsJava/tree/main/ChainOfResponsibility)
 
 [Iterator](https://github.com/oNicolasSB/DesignPatternsJava/tree/main/Iterator)
+
+[Memento](https://github.com/oNicolasSB/DesignPatternsJava/tree/main/Memento)
